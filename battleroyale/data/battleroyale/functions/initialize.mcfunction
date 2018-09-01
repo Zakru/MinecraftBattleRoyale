@@ -1,10 +1,17 @@
 defaultgamemode adventure
+gamerule mobGriefing false
 
 worldborder damage amount 0.00000000001
 worldborder damage buffer 0
 
 worldborder warning distance 0
 worldborder warning time 0
+
+
+# Scoreboard
+
+team add HideNames
+team modify HideNames nametagVisibility never
 
 scoreboard objectives add value dummy
 scoreboard objectives add dead deathCount
