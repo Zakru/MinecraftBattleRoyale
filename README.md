@@ -14,7 +14,7 @@ on GitHub, or clone this repository using
 Now that you have acquired the datapack files, copy the desired
 datapack(s) from the repository root folder into the `datapacks` folder
 of your world. The installation is completed by starting the server,
-opening the world or using the `/reload` command in-game.
+entering the world or using the `/reload` command in-game.
 
 ## Usage
 
