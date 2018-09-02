@@ -1,0 +1,8 @@
+scoreboard players set @e[type=minecraft:arrow,nbt={Color:16776960}] rocket 0
+execute at @e[type=minecraft:arrow,nbt={Color:16776960},scores={rocket=0}] run data merge entity @e[type=minecraft:arrow,limit=1,nbt={Color:16776960},scores={rocket=0},sort=nearest] {NoGravity:1}
+scoreboard players set @e[type=minecraft:arrow,nbt={Color:16776960,NoGravity:1}] rocket 1
+
+execute at @e[type=minecraft:arrow,nbt={inGround:1b,Color:16776960}] run summon minecraft:tnt
+kill @e[type=arrow,nbt={inGround:1b,Color:16776960}]
+
+scoreboard objectives add rocket dummy
