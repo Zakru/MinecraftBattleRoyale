@@ -13,6 +13,7 @@ worldborder warning time 0
 team add HideNames
 team modify HideNames nametagVisibility never
 
+scoreboard objectives remove value
 scoreboard objectives add value dummy
 scoreboard objectives add dead deathCount
 
