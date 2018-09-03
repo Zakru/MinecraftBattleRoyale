@@ -1,6 +1,7 @@
 {
 	"values": [
 		"battleroyale:main",
+		"battleroyale:victory",
 		"#battleroyale:dlc_every_tick"
 	]
 }

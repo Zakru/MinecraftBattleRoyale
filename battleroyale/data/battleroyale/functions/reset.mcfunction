@@ -3,12 +3,16 @@ worldborder set 60000000
 scoreboard players set timer value -1
 scoreboard players set pause value 1
 scoreboard players set prepare value 0
-gamemode spectator @[gamemode=spectator,scores={dead=1}]
+scoreboard players set endtimer value 0
+gamemode spectator @a[gamemode=spectator,scores={dead=1}]
 scoreboard players set @a dead 0
-time set 0
+scoreboard players set @a markedalive 0
+scoreboard players set @a markeddead 0
+scoreboard players set Alive info 0
 gamerule doMobLoot false
 gamerule doMobSpawning false
 kill @e[type=!player]
+clear @a
 
 # Boss bar value holders
 scoreboard players set bar_start value 0
