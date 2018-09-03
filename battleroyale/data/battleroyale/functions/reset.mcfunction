@@ -3,7 +3,7 @@ worldborder set 60000000
 scoreboard players set timer value -1
 scoreboard players set pause value 1
 scoreboard players set prepare value 0
-gamemode adventure @[gamemode=spectator,scores={dead=1}]
+gamemode adventure @a[gamemode=spectator,scores={dead=1}]
 scoreboard players set @a dead 0
 time set 0
 gamerule doMobLoot false
