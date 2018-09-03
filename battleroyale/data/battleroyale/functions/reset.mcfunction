@@ -4,7 +4,7 @@ scoreboard players set timer value -1
 scoreboard players set pause value 1
 scoreboard players set prepare value 0
 scoreboard players set endtimer value 0
-gamemode spectator @a[gamemode=spectator,scores={dead=1}]
+gamemode adventure @a[gamemode=spectator,scores={dead=1}]
 scoreboard players set @a dead 0
 scoreboard players set @a markedalive 0
 scoreboard players set @a markeddead 0

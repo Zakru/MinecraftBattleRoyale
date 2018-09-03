@@ -6,6 +6,13 @@ worldborder damage buffer 0
 worldborder warning distance 0
 worldborder warning time 0
 
+
+# Scoreboard
+
+team add HideNames
+team modify HideNames nametagVisibility never
+
+scoreboard objectives remove value
 scoreboard objectives add value dummy
 scoreboard objectives add info dummy "Info"
 scoreboard objectives setdisplay sidebar info
