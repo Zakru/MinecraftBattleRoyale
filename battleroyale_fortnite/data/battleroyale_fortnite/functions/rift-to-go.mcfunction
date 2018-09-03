@@ -1,0 +1,3 @@
+execute at @e[type=eye_of_ender] run summon creeper ~ ~-1 ~ {PersistenceRequired:1,DeathLootTable:"empty",ExplosionRadius:0b,powered:1b,Invulnerable:1,NoAI:1,NoGravity:1,Silent:1,ActiveEffects:[{Id:14,Duration:100000,ShowParticles:false}],Tags:[rift]}
+execute at @e[type=eye_of_ender] run scoreboard players set @e[type=minecraft:creeper,tag=rift,nbt={powered:1b},limit=1,sort=nearest] riftUsed 1
+execute as @e[type=eye_of_ender] run kill @s
