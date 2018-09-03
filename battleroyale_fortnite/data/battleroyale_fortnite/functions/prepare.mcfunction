@@ -14,4 +14,4 @@ scoreboard objectives add usedRift dummy
 scoreboard objectives add inAir dummy
 
 scoreboard players set @a usedRift 0
-scoreboard players set rift_left value 15
+scoreboard players set rift_left value 10

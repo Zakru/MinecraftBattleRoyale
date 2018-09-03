@@ -103,6 +103,22 @@
 					"functions": [
 						{
 							"function": "set_count",
+							"count": 2
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"{\\\"text\\\":\\\"Shockwave Grenade\\\",\\\"color\\\":\\\"dark_purple\\\"}\"},CustomPotionColor:11665626}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 2,
+					"quality": 0,
+					"functions": [
+						{
+							"function": "set_count",
 							"count": 3
 						},
 						{
