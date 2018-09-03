@@ -1,5 +1,4 @@
 defaultgamemode adventure
-gamerule mobGriefing false
 
 worldborder damage amount 0.00000000001
 worldborder damage buffer 0
@@ -7,18 +6,23 @@ worldborder damage buffer 0
 worldborder warning distance 0
 worldborder warning time 0
 
-
-# Scoreboard
-
-team add HideNames
-team modify HideNames nametagVisibility never
-
 scoreboard objectives add value dummy
+scoreboard objectives add info dummy "Info"
+scoreboard objectives setdisplay sidebar info
 scoreboard objectives add dead deathCount
+scoreboard objectives add markedalive dummy
+scoreboard objectives add markeddead dummy
+
+scoreboard players set endtime value 300
 
 scoreboard players set timer value -1
 
 scoreboard players set pause value 1
+
+
+#Resetting installed DLC
+
+scoreboard players set fortniteInstalled value 0
 
 
 # General constants
